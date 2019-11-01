@@ -15,7 +15,7 @@ Used in a local functional fitness gym ([iFunc](https://www.ifunc.de/)) for a [H
 _You are missing the context, what this is all about?_
 Have a look at
 
-* [(1) things with buzzers: Jeopardy!](https://github.com/andygrunwald/things-with-buzzers-jeopardy)
+* [(1) things with buzzers: Jeopardy! frontend](https://github.com/andygrunwald/things-with-buzzers-jeopardy)
 * [(2) things with buzzers: websocket](https://github.com/andygrunwald/things-with-buzzers-websocket)
 * [(3) things with buzzers: hardware](https://github.com/andygrunwald/things-with-buzzers-hardware)
 
