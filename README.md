@@ -2,6 +2,8 @@
 
 A sports competition frontend for _things with buzzers_.
 
+> For more context, we recommend reading [things with buzzers: building them](https://andygrunwald.com/blog/things-with-buzzers-building-them/) and [things with buzzers: a sports competition](https://andygrunwald.com/blog/things-with-buzzers-a-sports-competition/).
+
 <p align="center">
   <img src="images/scoreboard.png" title="The scoreboard" alt="The scoreboard">
 </p>
