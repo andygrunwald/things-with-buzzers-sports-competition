@@ -19,6 +19,13 @@ Have a look at
 * [(2) things with buzzers: websocket](https://github.com/andygrunwald/things-with-buzzers-websocket)
 * [(3) things with buzzers: hardware](https://github.com/andygrunwald/things-with-buzzers-hardware)
 
+## Features
+
+* Stopwatch per heat
+* Stopwatch is stopping automatically, once all heat athletes finished
+* Clickable names to indicate which athletes time should be stopped next (e.g., if someone outpaces another athlete)
+* Scoreboard to see who is the fastest athlete
+
 ## Limitations
 
 The scoreboard is 100% static.
