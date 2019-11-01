@@ -1,0 +1,168 @@
+body {
+	background: #333;
+}
+
+.wrapper {
+	float: left;
+	width: 29%;
+	margin: 5px 1px;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	border: 3px solid #fff;
+}
+
+h1,
+h2,
+h3,
+#uhr {
+	font-family: Barlow, sans-serif;
+	font-weight: 100;
+	font-size: 2.1em;
+}
+
+#logo {
+	position: fixed;
+	top: 0;
+	left: 30px;
+	width: 300px;
+	text-align: center;
+}
+
+#uhr {
+	background: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 5px 15px 5px;
+	font-weight: 600;
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+	border-bottom: 5px solid #ffd201;
+}
+
+h1 {
+	margin: 0px;
+	font-weight: 400;
+}
+
+h2 {
+	background: #ffd201;
+	font-size: 28px;
+	/*margin: 5px;*/
+	margin: 5px 0 5px 5px;
+	padding: 7px 0px;
+	color: #333;
+	font-weight: bold;
+}
+
+.display {
+	font-family: thaoma, sans-serif;
+	font-size: 60px;
+	margin: 10px 0px;
+}
+
+.start,
+.stop,
+.reset {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background: #333;
+	color: #fff;
+	border: solid 1px #fff;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 10px 80px;
+	width: 200px;
+	margin: 2px;
+	outline: none;
+}
+
+.time {
+    color:#ffd201;
+    font-size:50px;
+    letter-spacing:5px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.wrapper div h2 span {
+	display: inline;
+}
+
+/**
+ * Buttons
+ */
+div[data-button="red"] {
+	background-color: red;
+}
+
+div[data-button="green"] {
+	background-color: green;
+}
+
+div[data-button="yellow"] {
+	background-color: yellow;
+}
+
+div[data-button="blue"] {
+	background-color: blue;
+}
+
+.athlete {
+	cursor: pointer;
+}
+
+div[data-competition="finisher"] {
+	cursor: auto;
+}
+
+.next-finisher {
+	box-shadow: 0 0 20px #FFFFFF;
+}
+
+/**
+ * Leaderboard
+ */
+.leaderboard-wrapper {
+	text-align: center;
+}
+
+.leaderboard-wrapper h2 {
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+
+ .leaderboard-table {
+	width: 80%;
+	 margin: 0px auto;
+ }
+
+ .leaderboard-table tr {
+	background: #ffd201;
+	font-size: 30px;
+	color: #333;
+	font-weight: bold;
+}
+
+.leaderboard-table td {
+	padding: 7px;
+}
+
+.leaderboard-rank {
+
+}
+
+.leaderboard-name {
+
+}
+
+.leaderboard-time {
+
+}

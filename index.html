@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>iFunc - HyRox Special</title>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.stopwatch.js"></script>
+  <script type="text/javascript" src="js/scoreboard.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <div>
+    <div class="header" id="uhr"></div>
+    <div class="header" id="logo"><img src="img/logo.png" style="margin:15px 0px 0px 220px;"></div>
+  </div>
+
+  <div style="margin-bottom:160px;"></div>
+
+  <div data-heat="1" class="wrapper">
+    <h1>HEAT 1</h1>
+    <h1 class="time">11:00 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Juan Pérez</h2></div>
+    <div class="athlete" data-button="green"><h2>Fred Nurk</h2></div>
+    <div class="athlete" data-button="blue"><h2>John Citizen</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Jane Citizen</h2></div>
+
+    <div class="stopwatch" id="clock1"></div>
+  </div>
+
+  <div data-heat="2" class="wrapper">
+    <h1>HEAT 2</h1>
+    <h1 class="time">11:15 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Fulano de Tal</h2></div>
+    <div class="athlete" data-button="green"><h2>Joe Farnarkle</h2></div>
+    <div class="athlete" data-button="blue"><h2>John Bloggs</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Joe Blow</h2></div>
+
+    <div class="stopwatch" id="clock2"></div>
+  </div>
+
+  <div data-heat="3" class="wrapper">
+    <h1>HEAT 3</h1>
+    <h1 class="time">11:30 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Jane Bloggs</h2></div>
+    <div class="athlete" data-button="green"><h2>Jan Janssen</h2></div>
+    <div class="athlete" data-button="blue"><h2>Piet Pietersen</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Jos Joskens</h2></div>
+
+    <div class="stopwatch" id="clock3"></div>
+  </div>
+
+  <div data-heat="4" class="wrapper">
+    <h1>HEAT 4</h1>
+    <h1 class="time">11:45 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Jan Modaal</h2></div>
+    <div class="athlete" data-button="green"><h2>Jef Klak</h2></div>
+    <div class="athlete" data-button="blue"><h2>Marko Marković</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Petar Petrović</h2></div>
+
+    <div class="stopwatch" id="clock4"></div>
+  </div>
+
+  <div data-heat="5" class="wrapper">
+    <h1>HEAT 5</h1>
+    <h1 class="time">12:00 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>João da Silva</h2></div>
+    <div class="athlete" data-button="green"><h2>Zé Ninguém</h2></div>
+    <div class="athlete" data-button="blue"><h2>Jaan Tamm</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Maija Meikäläinen</h2></div>
+
+    <div class="stopwatch" id="clock5"></div>
+  </div>
+
+  <div data-heat="6" class="wrapper">
+    <h1>HEAT 6</h1>
+    <h1 class="time">12:15 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Jean Dupont</h2></div>
+    <div class="athlete" data-button="green"><h2>Paul Martin</h2></div>
+    <div class="athlete" data-button="blue"><h2>Ashok Kumar</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Si Polan</h2></div>
+
+    <div class="stopwatch" id="clock6"></div>
+  </div>
+
+  <div data-heat="7" class="wrapper">
+    <h1>HEAT 7</h1>
+    <h1 class="time">12:30 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Seán Ó Rudaí</h2></div>
+    <div class="athlete" data-button="green"><h2>Jóna Jónsdóttir</h2></div>
+    <div class="athlete" data-button="blue"><h2>Mario Rossi</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Pinco Pallino</h2></div>
+
+    <div class="stopwatch" id="clock7"></div>
+  </div>
+
+  <div data-heat="8" class="wrapper">
+    <h1>HEAT 8</h1>
+    <h1 class="time">12:45 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Jos Bleau</h2></div>
+    <div class="athlete" data-button="green"><h2>G. Raymond</h2></div>
+    <div class="athlete" data-button="blue"><h2>Ivan Horvat</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Jānis Bērziņš</h2></div>
+
+    <div class="stopwatch" id="clock8"></div>
+  </div>
+
+  <div data-heat="9" class="wrapper">
+    <h1>HEAT 9</h1>
+    <h1 class="time">13:00 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Petras Petraitis</h2></div>
+    <div class="athlete" data-button="green"><h2>Jenni a Menni</h2></div>
+    <div class="athlete" data-button="blue"><h2>Joe Borg</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Sapitin la</h2></div>
+
+    <div class="stopwatch" id="clock9"></div>
+  </div>
+
+  <div data-heat="10" class="wrapper">
+    <h1>HEAT 10</h1>
+    <h1 class="time">13:15 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Bob Smith</h2></div>
+    <div class="athlete" data-button="green"><h2>Harry Holland</h2></div>
+    <div class="athlete" data-button="blue"><h2>Ola og Kari Nordmann</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Jan Kowalski</h2></div>
+
+    <div class="stopwatch" id="clock10"></div>
+  </div>
+
+  <div data-heat="11" class="wrapper">
+    <h1>HEAT 11</h1>
+    <h1 class="time">13:30 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Manuel Dos Santos</h2></div>
+    <div class="athlete" data-button="green"><h2>Kalle Svensson</h2></div>
+    <div class="athlete" data-button="blue"><h2>Erik Johansson</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Tan Ah Beng</h2></div>
+
+    <div class="stopwatch" id="clock11"></div>
+  </div>
+
+  <div data-heat="12" class="wrapper">
+    <h1>HEAT 12</h1>
+    <h1 class="time">13:45 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Koos van der Merwe</h2></div>
+    <div class="athlete" data-button="green"><h2>Juan de los Palotes</h2></div>
+    <div class="athlete" data-button="blue"><h2>Juan Bimba</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Erika Meier</h2></div>
+
+    <div class="stopwatch" id="clock12"></div>
+  </div>
+
+  <div data-heat="13" class="wrapper">
+    <h1>HEAT 13</h1>
+    <h1 class="time">14:00 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Max Mustermann</h2></div>
+    <div class="athlete" data-button="green"><h2>Gipsz Jakab</h2></div>
+    <div class="athlete" data-button="blue"><h2>Sade Vatandaş</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Nai-Gor</h2></div>
+
+    <div class="stopwatch" id="clock13"></div>
+  </div>
+
+  <div data-heat="14" class="wrapper">
+    <h1>HEAT 14</h1>
+    <h1 class="time">14:15 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>Joe Shmoe</h2></div>
+    <div class="athlete" data-button="green"><h2>FREE SPOT</h2></div>
+    <div class="athlete" data-button="blue"><h2>Sally Sixpack</h2></div>
+    <div class="athlete" data-button="yellow"><h2>Jane Doe</h2></div>
+
+    <div class="stopwatch" id="clock14"></div>
+  </div>
+
+  <div data-heat="15" class="wrapper">
+    <h1>HEAT 15</h1>
+    <h1 class="time">14:30 Uhr</h1>
+    <div class="athlete" data-button="red"><h2>FREE SPOT</h2></div>
+    <div class="athlete" data-button="green"><h2>FREE SPOT</h2></div>
+    <div class="athlete" data-button="blue"><h2>FREE SPOT</h2></div>
+    <div class="athlete" data-button="yellow"><h2>FREE SPOT</h2></div>
+
+    <div class="stopwatch" id="clock15"></div>
+  </div>
+
+  <div style="margin-bottom:100px; clear:both;"></div>
+
+  <hr />
+
+  <div class="leaderboard-wrapper">
+    <h2>Leaderboard</h2>
+    <div id="leaderboard">
+      <h2>NO FINISHER YET - BE THE FIRST ONE</h2>
+    </div>
+  </div>
+
+  <div style="margin-bottom:100px; clear:both;"></div>
+</body>
+</html>
